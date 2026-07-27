@@ -1,4 +1,4 @@
-# AE Damage Mode Classification using Acoustic Emission
+# Acoustic Emission Damage Mode Classification using Machine Learning
 
 <p align="center">
 
@@ -14,7 +14,9 @@
 
 # Overview
 
-This project predicts the **Damage Mode of Composite Materials** using **Acoustic Emission (AE) Features** extracted from `.pridb` files.
+This project predicts the **Damage Mode of Composite Materials** using **Acoustic Emission (AE) Features** extracted from `.pridb` files. This project presents a complete end-to-end machine learning pipeline for identifying damage modes in composite materials using Acoustic Emission (AE) signals collected during mechanical testing of CFRP composite plates.
+
+The system reads raw PAC .pridb databases, extracts Acoustic Emission hit information from AE-hits table, preprocesses the data, trains multiple machine learning models, and predicts the damage mode of previously unseen specimens.
 
 Instead of manually analyzing thousands of AE hits, the trained machine learning model predicts the damage mode in real time through:
 
@@ -238,15 +240,15 @@ Example Response
 
 # Dataset
 
-The project is trained using Acoustic Emission datasets collected from composite specimens.
+This project uses an Acoustic Emission (AE) dataset collected from compression tests on Carbon Fiber Reinforced Polymer (CFRP) composites. During loading, different damage mechanisms generate acoustic waves that are captured by AE sensors and used to identify the type of structural damage.
 
-Input files include
+The dataset includes raw AE waveforms (.tradb), AE hit descriptors (.pridb), and mechanical test data (.csv) containing force, displacement, and time. Four experimental setups were performed to represent different damage modes: Matrix Cracking, Fiber Failure, Delamination, and Mixed Damage (Compression After Impact).
 
-- `.pridb`
-- `.tradb`
-- MTS CSV files
+In this project, AE features are combined with the corresponding mechanical data to build a machine learning model that automatically classifies the damage mode of CFRP composites.
 
-The preprocessing stage extracts useful AE hit features for machine learning.
+🔧 Dataset Description-
+To help in the analysis of the data, Python scripts are available on this Repository:
+https://github.com/biaginidavide/AcousticEmissionAnalysis
 
 ---
 
