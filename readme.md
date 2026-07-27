@@ -278,22 +278,6 @@ https://github.com/biaginidavide/AcousticEmissionAnalysis
 
 ---
 
-# Screenshots
-
-## FastAPI
-
-```
-![fast api](image.png)
-```
-
-## Streamlit
-
-```
-![streamlit web application](image-1.png)
-```
-
----
-
 # Author
 
 Satyam Chaurasiya
