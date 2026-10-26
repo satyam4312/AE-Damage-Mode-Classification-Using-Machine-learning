@@ -181,16 +181,6 @@ models/damage_mode_pipeline.pkl
 
 ---
 
-# Run FastAPI
-
-API Documentation
-
-```
-http://127.0.0.1:8000/docs
-```
-
----
-
 # Streamlit Application
 
 The application provides an easy-to-use interface for predicting damage modes by entering AE feature values.
@@ -252,20 +242,6 @@ https://github.com/biaginidavide/AcousticEmissionAnalysis
 
 ---
 
-# Technologies Used
-
-- Python
-- Scikit-learn
-- Balanced Random Forest
-- FastAPI
-- Streamlit
-- Joblib
-- Pandas
-- NumPy
-- Matplotlib
-
----
-
 # Future Improvements
 
 - Get the raw waveform data directly from .tradb files and analyse them
@@ -281,9 +257,5 @@ https://github.com/biaginidavide/AcousticEmissionAnalysis
 # Author
 
 Satyam Chaurasiya
-
 Machine Learning • Structural Health Monitoring • Acoustic Emission • Composite Damage Detection
 
-# License
-
-This project is released under the MIT License.
