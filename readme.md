@@ -257,5 +257,6 @@ https://github.com/biaginidavide/AcousticEmissionAnalysis
 # Author
 
 Satyam Chaurasiya
+
 Machine Learning • Structural Health Monitoring • Acoustic Emission • Composite Damage Detection
 
